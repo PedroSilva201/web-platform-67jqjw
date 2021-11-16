@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  padding: 0px 10px;
+  border-bottom: 3px solid steelblue;
+}
+
+.itens {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+h2 {
+  margin-right: 30px;
+}
+
+a {
+  padding: 10px;
+  cursor: pointer;
+  border: 1.5px dotted white;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  border-color: lightgray
+}
